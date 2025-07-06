@@ -68,9 +68,10 @@ Toplam proje 300 puanlık iş yüküne göre planlandı. İlk sprintte takım i�
 
 ### 🔸 Daily Scrum
 
-* Takım olarak WhatsApp üzerinden iletişim sağlandı.
-* Günlük durum paylaşımları akşam saatlerinde yapıldı.
-* Muhammed Mustafa genel planlamayı yürüttü, Alperen ile teknoloji karan ve backlog detayları konuşuldu.
+* Takımın büyük bölümüyle sağlıklı iletişim kurulamadığı için aktif üyeler olarak yalnızca Muhammed Mustafa Geldi ve Alperen Sümeroğlu arasında Google Meet üzerinden toplantılar gerçekleştirildi.
+* Günlük ilerleme ve görev paylaşımı bu toplantılarda belirlendi.
+* Muhammed Mustafa genel planlamayı yürüttü, Alperen ile teknoloji kararı ve backlog detayları konuşuldu.
+* WhatsApp grubu üzerinden takım üyeleri ile iletişime geçilmeye çalışılmasına rağmen geri dönüş alınamadı; bu nedenle ekran görüntülerinde bu duruma dair mesaj kayıtlarına yer verildi.
 
 ## 📸 *Ekran Görüntüsü:* 
 <p align="center">
