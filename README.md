@@ -7,7 +7,7 @@ SympAI, kullanıcıların sesli ya da yazılı olarak belirttikleri sağlık sem
 ## 🧠 Takım Bilgileri
 
 * **Takım İsmi**: KodKlinik
-* **Takım Ü yeleri**:
+* **Takım Üyeleri**:
 
   * **Muhammed Mustafa Geldi** – *Scrum Master / Developer* ✅ Aktif
   * **Alperen Sümeroğlu** – *Product Owner / Developer* ✅ Aktif
