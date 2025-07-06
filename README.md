@@ -72,9 +72,11 @@ Toplam proje 300 puanlık iş yüküne göre planlandı. İlk sprintte takım i�
 * Günlük durum paylaşımları akşam saatlerinde yapıldı.
 * Muhammed Mustafa genel planlamayı yürüttü, Alperen ile teknoloji karan ve backlog detayları konuşuldu.
 
-📸 *Ekran Görüntüsü:* 
-<img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%201/sprint1-ss-1.jpg" width="600"/>
-<img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%201/sprint1-ss-2.jpg" width="600"/>
+## 📸 *Ekran Görüntüsü:* 
+<p align="center">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%201/sprint1-ss-1.jpg" width="250">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%201/sprint1-ss-2.jpg" width="250">
+</p>
 
 ---
 
