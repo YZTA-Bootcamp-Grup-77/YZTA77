@@ -32,7 +32,13 @@ class ConditionAdapter : ListAdapter<PossibleCondition, ConditionAdapter.Conditi
             binding.conditionDescription.text = condition.description
             
             // Set probability chip
-            binding.probabilityChip.text = condition.probability
+            val probabilityText = when (condition.probability) {
+                "HIGH" -> binding.root.context.getString(R.string.probability_high)
+                "MEDIUM" -> binding.root.context.getString(R.string.probability_medium)
+                else -> binding.root.context.getString(R.string.probability_low)
+            }
+            binding.probabilityChip.text = probabilityText
+            
             val probabilityColor = when (condition.probability) {
                 "HIGH" -> R.color.probability_high
                 "MEDIUM" -> R.color.probability_medium
@@ -43,8 +49,23 @@ class ConditionAdapter : ListAdapter<PossibleCondition, ConditionAdapter.Conditi
                 probabilityColor
             )
             
+            // Set probability chip content description for accessibility
+            val probabilityDesc = when (condition.probability) {
+                "HIGH" -> binding.root.context.getString(R.string.probability_high_desc)
+                "MEDIUM" -> binding.root.context.getString(R.string.probability_medium_desc)
+                else -> binding.root.context.getString(R.string.probability_low_desc)
+            }
+            binding.probabilityChip.contentDescription = probabilityDesc
+            
             // Set urgency chip
-            binding.urgencyChip.text = condition.urgency.replace("_", " ")
+            val urgencyText = when (condition.urgency) {
+                "EMERGENCY" -> binding.root.context.getString(R.string.urgency_emergency)
+                "URGENT" -> binding.root.context.getString(R.string.urgency_urgent)
+                "ROUTINE" -> binding.root.context.getString(R.string.urgency_routine)
+                else -> binding.root.context.getString(R.string.urgency_self_care)
+            }
+            binding.urgencyChip.text = urgencyText
+            
             val urgencyColor = when (condition.urgency) {
                 "EMERGENCY" -> R.color.urgency_emergency
                 "URGENT" -> R.color.urgency_urgent
@@ -55,6 +76,15 @@ class ConditionAdapter : ListAdapter<PossibleCondition, ConditionAdapter.Conditi
                 binding.root.context,
                 urgencyColor
             )
+            
+            // Set urgency chip content description for accessibility
+            val urgencyDesc = when (condition.urgency) {
+                "EMERGENCY" -> binding.root.context.getString(R.string.urgency_emergency_desc)
+                "URGENT" -> binding.root.context.getString(R.string.urgency_urgent_desc)
+                "ROUTINE" -> binding.root.context.getString(R.string.urgency_routine_desc)
+                else -> binding.root.context.getString(R.string.urgency_self_care_desc)
+            }
+            binding.urgencyChip.contentDescription = urgencyDesc
         }
     }
 

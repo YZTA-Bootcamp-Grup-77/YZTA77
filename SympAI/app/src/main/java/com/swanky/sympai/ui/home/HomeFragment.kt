@@ -81,8 +81,8 @@ class HomeFragment : Fragment() {
     
     private fun setupObservers() {
         viewModel.isLoading.observe(viewLifecycleOwner) { isLoading ->
-            binding.progressBar.visibility = if (isLoading) View.VISIBLE else View.GONE
-            binding.micButton.isEnabled = !isLoading
+            binding.loadingContainer.visibility = if (isLoading) View.VISIBLE else View.GONE
+            binding.micButtonCard.isEnabled = !isLoading
             binding.analyzeButton.isEnabled = !isLoading
         }
         
@@ -103,7 +103,7 @@ class HomeFragment : Fragment() {
     }
     
     private fun setupListeners() {
-        binding.micButton.setOnClickListener {
+        binding.micButtonCard.setOnClickListener {
             checkMicrophonePermission()
         }
         
@@ -114,7 +114,7 @@ class HomeFragment : Fragment() {
             } else {
                 Snackbar.make(
                     binding.root,
-                    "Please describe your symptoms first",
+                    "Lütfen önce semptomlarınızı açıklayın",
                     Snackbar.LENGTH_SHORT
                 ).show()
             }
@@ -122,6 +122,11 @@ class HomeFragment : Fragment() {
         
         binding.historyButton.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_historyFragment)
+        }
+        
+        // Mikrofon ikonuna da tıklama işlevi ekleyelim
+        binding.micButton.setOnClickListener {
+            checkMicrophonePermission()
         }
     }
     

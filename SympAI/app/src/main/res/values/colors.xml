@@ -1,27 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Base colors -->
-    <color name="primary">#4285F4</color>
-    <color name="primary_dark">#3367D6</color>
-    <color name="accent">#00C853</color>
-    <color name="background">#F5F7FA</color>
+    <!-- Logo-based brand colors -->
+    <color name="primary">#4CAF50</color>        <!-- Yeşil (robot gözleri ve çanta) -->
+    <color name="primary_dark">#388E3C</color>   <!-- Koyu Yeşil -->
+    <color name="primary_light">#81C784</color>  <!-- Açık Yeşil (robot kolu) -->
+    <color name="secondary">#FF8A65</color>      <!-- Turuncu/Somon (robot kulaklıkları) -->
+    <color name="secondary_dark">#E57373</color> <!-- Koyu Turuncu -->
+    <color name="accent">#FFE57F</color>         <!-- Sarı/Krem (robot kaskı) -->
+    <color name="dark_purple">#2D2A40</color>    <!-- Koyu Mor (robot yüzü) -->
+    
+    <!-- UI colors -->
+    <color name="background">#F8F9FA</color>     <!-- Daha açık arka plan -->
     <color name="surface">#FFFFFF</color>
     <color name="error">#B00020</color>
     
     <!-- Text colors -->
-    <color name="text_primary">#212121</color>
-    <color name="text_secondary">#757575</color>
+    <color name="text_primary">#2D2A40</color>   <!-- Koyu Mor (robot yüzü) -->
+    <color name="text_secondary">#5D5A70</color> <!-- Açık Mor -->
+    <color name="text_tertiary">#9E9E9E</color>  <!-- Gri -->
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
     
     <!-- Probability colors -->
-    <color name="probability_high">#F44336</color>
-    <color name="probability_medium">#FF9800</color>
-    <color name="probability_low">#4CAF50</color>
+    <color name="probability_high">#E57373</color>      <!-- Kırmızı tonu -->
+    <color name="probability_medium">#FF8A65</color>    <!-- Turuncu (logo) -->
+    <color name="probability_low">#81C784</color>       <!-- Açık Yeşil (logo) -->
     
     <!-- Urgency colors -->
-    <color name="urgency_emergency">#D32F2F</color>
-    <color name="urgency_urgent">#FF9800</color>
-    <color name="urgency_routine">#2196F3</color>
-    <color name="urgency_self_care">#4CAF50</color>
+    <color name="urgency_emergency">#E57373</color>     <!-- Kırmızı tonu -->
+    <color name="urgency_urgent">#FF8A65</color>        <!-- Turuncu (logo) -->
+    <color name="urgency_routine">#64B5F6</color>       <!-- Mavi tonu -->
+    <color name="urgency_self_care">#81C784</color>     <!-- Açık Yeşil (logo) -->
+    
+    <!-- Card colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_stroke">#E0E0E0</color>
 </resources>
