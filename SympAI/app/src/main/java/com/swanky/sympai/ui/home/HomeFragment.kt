@@ -84,6 +84,7 @@ class HomeFragment : Fragment() {
             binding.loadingContainer.visibility = if (isLoading) View.VISIBLE else View.GONE
             binding.micButtonCard.isEnabled = !isLoading
             binding.analyzeButton.isEnabled = !isLoading
+            binding.inputMethodsCard.isEnabled = !isLoading
         }
         
         viewModel.error.observe(viewLifecycleOwner) { errorMessage ->
@@ -127,6 +128,13 @@ class HomeFragment : Fragment() {
         // Mikrofon ikonuna da tıklama işlevi ekleyelim
         binding.micButton.setOnClickListener {
             checkMicrophonePermission()
+        }
+        
+        // Ana animasyonu tekrar oynatma
+        binding.lottieAnimationView.setOnClickListener {
+            if (!binding.lottieAnimationView.isAnimating) {
+                binding.lottieAnimationView.playAnimation()
+            }
         }
     }
     
