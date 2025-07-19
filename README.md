@@ -139,12 +139,11 @@ Uygulama için temel planlama oluşturuldu. Henüz UI veya kod çalışması yap
 #### *SympAI Mobil Uygulama Arayüzü:*
 
 <p align="center">
-   <!-- Telefon ekran görüntülerinizi buraya ekleyebilirsiniz -->
-   <!-- Örnek kullanım:
-   <img src="path/to/your/screenshot1.png" width="200" style="margin: 10px;">
-   <img src="path/to/your/screenshot2.png" width="200" style="margin: 10px;">
-   <img src="path/to/your/screenshot3.png" width="200" style="margin: 10px;">
-   -->
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss1.png" width="150" style="margin: 2px;">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss2.png" width="150" style="margin: 2px;">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss3.png" width="150" style="margin: 2px;"> 
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss4.png" width="150" style="margin: 2px;"> 
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss5.png" width="150" style="margin: 2px;"> 
 </p>
 
 ### 🔸 Tahmin Edilen Tamamlanacak Puan
@@ -164,11 +163,10 @@ Toplam proje 300 puanlık iş yüküne göre planlandı. İkinci sprintte uygula
 
 #### 📸 *Ekran Görüntüleri:* 
 <p align="center">
-   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss1.png" width="150">
-   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss2.png" width="150">
-   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss3.png" width="150">
-   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss4.png" width="150">
-   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss5.png" width="150">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/sprint2-ss-1.jpg" width="150">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/sprint2-ss-2.jpg" width="150">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/sprint2-ss-3.jpg" width="150">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/sprint2-ss-4.jpg" width="150">
 </p>
 
 ### 🔸 Sprint Board Updates
