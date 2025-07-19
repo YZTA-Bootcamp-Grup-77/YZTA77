@@ -55,13 +55,15 @@ class GeminiService(private val context: Context) {
             
             Important guidelines:
             1. Include 2-4 possible conditions that match the symptoms
-            2. For each condition, provide a brief description
+            2. For each condition, provide a brief description in Turkish
             3. Assign a probability level (HIGH, MEDIUM, LOW)
             4. Assign an urgency level (EMERGENCY, URGENT, ROUTINE, SELF_CARE)
-            5. Recommend appropriate medical specialists
-            6. Provide general advice for managing symptoms
+            5. Recommend appropriate medical specialists in Turkish
+            6. Provide general advice for managing symptoms in Turkish
             7. ONLY return the JSON object, no other text
             8. Make sure the JSON is valid and properly formatted
+            9. The condition names should be in Turkish
+            10. All text fields should be in Turkish language
             
             Remember: This is not medical advice. Always recommend seeking professional medical help for serious symptoms.
         """.trimIndent()

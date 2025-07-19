@@ -30,4 +30,25 @@
     <string name="delete_analysis_message">Bu analiz kaydını silmek istediğinizden emin misiniz?</string>
     <string name="delete">Sil</string>
     <string name="cancel">İptal</string>
+    
+    <!-- Probability Labels -->
+    <string name="probability_high">YÜKSEK</string>
+    <string name="probability_medium">ORTA</string>
+    <string name="probability_low">DÜŞÜK</string>
+    
+    <!-- Urgency Labels -->
+    <string name="urgency_emergency">ACİL DURUM</string>
+    <string name="urgency_urgent">ACİL</string>
+    <string name="urgency_routine">RUTİN</string>
+    <string name="urgency_self_care">KENDİ KENDİNE BAKIM</string>
+    
+    <!-- Label Descriptions -->
+    <string name="probability_high_desc">Bu durum semptomlarınızla yüksek derecede uyumludur</string>
+    <string name="probability_medium_desc">Bu durum semptomlarınızla orta derecede uyumludur</string>
+    <string name="probability_low_desc">Bu durum semptomlarınızla düşük derecede uyumludur</string>
+    
+    <string name="urgency_emergency_desc">Hemen tıbbi yardım alınması gereken durum</string>
+    <string name="urgency_urgent_desc">24-48 saat içinde tıbbi değerlendirme gerektiren durum</string>
+    <string name="urgency_routine_desc">Normal bir doktor randevusu ile değerlendirilmesi gereken durum</string>
+    <string name="urgency_self_care_desc">Evde kendi kendinize yönetebileceğiniz durum</string>
 </resources>
