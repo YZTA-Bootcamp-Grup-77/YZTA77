@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base colors -->
+    <color name="primary">#4285F4</color>
+    <color name="primary_dark">#3367D6</color>
+    <color name="accent">#00C853</color>
+    <color name="background">#F5F7FA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="error">#B00020</color>
+    
+    <!-- Text colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    
+    <!-- Probability colors -->
+    <color name="probability_high">#F44336</color>
+    <color name="probability_medium">#FF9800</color>
+    <color name="probability_low">#4CAF50</color>
+    
+    <!-- Urgency colors -->
+    <color name="urgency_emergency">#D32F2F</color>
+    <color name="urgency_urgent">#FF9800</color>
+    <color name="urgency_routine">#2196F3</color>
+    <color name="urgency_self_care">#4CAF50</color>
+</resources>

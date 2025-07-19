@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SympAI</string>
+    
+    <!-- Home Screen -->
+    <string name="home_title">Semptomlarınızı Anlatın</string>
+    <string name="home_subtitle">Rahatsızlığınızı sesli veya yazılı olarak anlatın, yapay zeka size yardımcı olsun.</string>
+    <string name="tap_to_speak">Konuşmak için dokunun</string>
+    <string name="describe_symptoms">Semptomlarınızı açıklayın</string>
+    <string name="analyze_symptoms">Analiz Et</string>
+    <string name="mic_button_description">Sesli semptom girişi için mikrofon butonu</string>
+    
+    <!-- Result Screen -->
+    <string name="analysis_results">Analiz Sonuçları</string>
+    <string name="your_symptoms">Semptomlarınız</string>
+    <string name="possible_conditions">Olası Durumlar</string>
+    <string name="specialist_recommendation">Uzman Tavsiyesi</string>
+    <string name="general_advice">Genel Tavsiyeler</string>
+    <string name="back_to_home">Ana Sayfaya Dön</string>
+    <string name="specialist_icon_description">Uzman tavsiyesi ikonu</string>
+    <string name="advice_icon_description">Genel tavsiye ikonu</string>
+    
+    <!-- History Screen -->
+    <string name="history">Geçmiş Analizler</string>
+    <string name="no_history_yet">Henüz Analiz Geçmişi Yok</string>
+    <string name="no_history_description">Semptomlarınızı analiz ettiğinizde, sonuçlar burada görünecektir.</string>
+    <string name="empty_history_description">Boş geçmiş ikonu</string>
+    <string name="delete_history_item">Geçmiş öğeyi sil</string>
+    <string name="delete_analysis_title">Analizi Sil</string>
+    <string name="delete_analysis_message">Bu analiz kaydını silmek istediğinizden emin misiniz?</string>
+    <string name="delete">Sil</string>
+    <string name="cancel">İptal</string>
+</resources>
