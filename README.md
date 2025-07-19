@@ -42,7 +42,9 @@ SympAI, kullanıcıların sesli ya da yazılı olarak belirttikleri sağlık sem
 
 ---
 
-## 🚀 Sprint 1 Bilgilendirme
+# 🚀 SPRINT GELİŞİM SÜRECİ
+
+## 🔹 Sprint 1 Bilgilendirme
 
 ### 🔸 Sprint Notları
 
@@ -52,19 +54,13 @@ SympAI, kullanıcıların sesli ya da yazılı olarak belirttikleri sağlık sem
 * GitHub reposu oluşturuldu
 * Backlog için Miroda kanban oluşturuldu
 
----
-
 ### 🔸 Tahmin Edilen Tamamlanacak Puan
 
 **50 puan**
 
----
-
 ### 🔸 Tahmin Mantığı
 
 Toplam proje 300 puanlık iş yüküne göre planlandı. İlk sprintte takım içi uyum, proje fikri, teknoloji seçimi ve planlamaya odaklanıldığından **50 puan** ayrıldı. Geliştirme ve entegrasyon işlemleri sonraki sprintlere bırakıldı.
-
----
 
 ### 🔸 Daily Scrum
 
@@ -73,25 +69,21 @@ Toplam proje 300 puanlık iş yüküne göre planlandı. İlk sprintte takım i�
 * Muhammed Mustafa genel planlamayı yürüttü, Alperen ile teknoloji kararı ve backlog detayları konuşuldu.
 * WhatsApp grubu üzerinden takım üyeleri ile iletişime geçilmeye çalışılmasına rağmen geri dönüş alınamadı; bu nedenle ekran görüntülerinde bu duruma dair mesaj kayıtlarına yer verildi.
 
-## 📸 *Ekran Görüntüsü:* 
+#### 📸 *Ekran Görüntüsü:* 
 <p align="center">
    <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%201/sprint1-ss-1.jpg" width="250">
    <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%201/sprint1-ss-2.jpg" width="250">
 </p>
 
----
-
 ### 🔸 Sprint Board Updates
 
-📸 *Sprint Board Ekran Görüntüsü:* <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%201/sprint_board_1.png" alt="Sprint 1 Board" width="800"/>
+📸 *Sprint Board Ekran Görüntüsü:* 
 
----
+<img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%201/sprint_board_1.png" alt="Sprint 1 Board" width="800"/>
 
 ### 🔸 Ürün Durumu
 
 Uygulama için temel planlama oluşturuldu. Henüz UI veya kod çalışması yapılmadı.
-
----
 
 ### 🔸 Sprint Review
 
@@ -101,15 +93,11 @@ Uygulama için temel planlama oluşturuldu. Henüz UI veya kod çalışması yap
 * Geliştirme ortamı hazırlandı
 * Teknoloji kararı alındı: Kotlin + Gemini
 
----
-
 ### 🔸 Sprint Katılımcıları
 
 * Muhammed Mustafa Geldi ✅
 * Alperen Sümeroğlu ✅
 * Diğer takım üyeleri katılım sağlamadı ❌
-
----
 
 ### 🔸 Sprint Retrospective
 
@@ -123,9 +111,7 @@ Uygulama için temel planlama oluşturuldu. Henüz UI veya kod çalışması yap
 * Takımın çoğunun pasif olması ilerlemeyi yavaşlattı
 * İletişim kanallarında aksama yaşandı
 
----
-
-## 📁 Not
+### 📁 Sprint 1 Notları
 
 İlerleyen sprintlerde:
 
@@ -136,7 +122,7 @@ Uygulama için temel planlama oluşturuldu. Henüz UI veya kod çalışması yap
 
 ---
 
-## 🚀 Sprint 2 Bilgilendirme
+## 🔹 Sprint 2 Bilgilendirme
 
 ### 🔸 Sprint Notları
 
@@ -148,19 +134,26 @@ Uygulama için temel planlama oluşturuldu. Henüz UI veya kod çalışması yap
 * Uygulama temel işlevleriyle çalışır duruma getirildi
 * Gemini entegrasyonu yapılıp testleri yapıldı
 
----
+### 📱 Ürün Ekran Görüntüleri
+
+#### *SympAI Mobil Uygulama Arayüzü:*
+
+<p align="center">
+   <!-- Telefon ekran görüntülerinizi buraya ekleyebilirsiniz -->
+   <!-- Örnek kullanım:
+   <img src="path/to/your/screenshot1.png" width="200" style="margin: 10px;">
+   <img src="path/to/your/screenshot2.png" width="200" style="margin: 10px;">
+   <img src="path/to/your/screenshot3.png" width="200" style="margin: 10px;">
+   -->
+</p>
 
 ### 🔸 Tahmin Edilen Tamamlanacak Puan
 
 **125 puan**
 
----
-
 ### 🔸 Tahmin Mantığı
 
 Toplam proje 300 puanlık iş yüküne göre planlandı. İkinci sprintte uygulama temel yapısının oluşturulması, ekran tasarımlarının yapılması ve Gemini API entegrasyonu gibi önemli geliştirme adımları tamamlandığından **125 puan** ayrıldı. Bu sprint, projenin temel işlevselliğinin oluşturulduğu en kritik aşamalardan biri oldu.
-
----
 
 ### 🔸 Daily Scrum
 
@@ -169,27 +162,24 @@ Toplam proje 300 puanlık iş yüküne göre planlandı. İkinci sprintte uygula
 * Muhammed Mustafa Geldi yine planlamayı yürüttü, Mukadder Gür tasarım temelini yaptı.
 * Diğer takım üyeleriyle iletişim kurmak için çaba gösterilmesine rağmen yeterli katılım sağlanamadı.
 
-## 📸 *Ekran Görüntüsü:* 
+#### 📸 *Ekran Görüntüleri:* 
 <p align="center">
-   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/sprint2-ss-1.jpg" width="200">
-   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/sprint2-ss-2.jpg" width="200">
-   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/sprint2-ss-3.jpg" width="200">
-   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/sprint2-ss-4.jpg" width="200">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss1.png" width="200">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss2.png" width="200">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss3.png" width="200">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss4.png" width="200">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss5.png" width="200">
 </p>
-
----
 
 ### 🔸 Sprint Board Updates
 
-📸 *Sprint Board Ekran Görüntüsü:* <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/sprint_board_2.png" alt="Sprint 2 Board" width="800"/>
+📸 *Sprint Board Ekran Görüntüsü:* 
 
----
+<img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/sprint_board_2.png" alt="Sprint 2 Board" width="800"/>
 
 ### 🔸 Ürün Durumu
 
 Uygulama artık temel işlevleriyle çalışır durumda. Ana ekran, semptom girişi, analiz sonuçları ve geçmiş kayıtlar ekranları tasarlandı ve kodlandı. Gemini API entegrasyonu tamamlandı ve semptom analizi yapılabiliyor. Kullanıcı arayüzü modern ve kullanıcı dostu bir tasarıma sahip.
-
----
 
 ### 🔸 Sprint Review
 
@@ -200,8 +190,6 @@ Uygulama artık temel işlevleriyle çalışır durumda. Ana ekran, semptom giri
 * Analiz sonuçlarının görüntülenmesi sağlandı
 * Modern ve kullanıcı dostu bir arayüz tasarlandı
 
----
-
 ### 🔸 Sprint Katılımcıları
 
 * Muhammed Mustafa Geldi ✅
@@ -209,8 +197,6 @@ Uygulama artık temel işlevleriyle çalışır durumda. Ana ekran, semptom giri
 * Alperen Sümeroğlu ❓
 * Zeynep Genyüz ❓
 * Aleyna Usta ❓
-
----
 
 ### 🔸 Sprint Retrospective
 
@@ -226,9 +212,7 @@ Uygulama artık temel işlevleriyle çalışır durumda. Ana ekran, semptom giri
 * Görev dağılımında yaşanan aksaklıklar zaman kaybına neden oldu
 * İletişim sorunları devam etti.
 
----
-
-## 📁 Not
+### 📁 Sprint 2 Notları
 
 İlerleyen sprintlerde:
 
