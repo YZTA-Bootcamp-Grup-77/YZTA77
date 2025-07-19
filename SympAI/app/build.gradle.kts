@@ -20,7 +20,7 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         
         // Add API key to BuildConfig
-        buildConfigField("String", "GEMINI_API_KEY", "\"AIzaSyB9w23yJ5HapHqZgDdu3gcUJwfj_C7G4OA\"")
+        buildConfigField("String", "GEMINI_API_KEY", "\"AIzaSyCdBjD_gWReZczfmi0bmzRk_DvYL2gmZfg\"")
     }
 
     buildTypes {
@@ -83,7 +83,7 @@ dependencies {
     implementation("com.google.android.material:material:1.11.0")
     
     // Lottie for animations
-    implementation("com.airbnb.android:lottie:6.3.0")
+    implementation("com.airbnb.android:lottie:6.6.6")
     
     // Testing
     testImplementation(libs.junit)
