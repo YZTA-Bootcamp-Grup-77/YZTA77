@@ -9,11 +9,11 @@ SympAI, kullanıcıların sesli ya da yazılı olarak belirttikleri sağlık sem
 * **Takım İsmi**: KodKlinik
 * **Takım Üyeleri**:
 
-  * **Muhammed Mustafa Geldi** – *Scrum Master / Developer* ✅ Aktif
-  * **Alperen Sümeroğlu** – *Product Owner / Developer* ✅ Aktif
-  * **Mukadder Gür** ❌ Pasif
-  * **Zeynep Genyüz** ❌ Pasif
-  * **Aleyna Usta** ❌ Pasif
+  * **Muhammed Mustafa Geldi** – *Scrum Master / Developer* 
+  * **Alperen Sümeroğlu** – *Product Owner / Developer*
+  * **Mukadder Gür** - *Developer*
+  * **Zeynep Genyüz** - *Developer*
+  * **Aleyna Usta** - *Developer*
 
 ---
 
