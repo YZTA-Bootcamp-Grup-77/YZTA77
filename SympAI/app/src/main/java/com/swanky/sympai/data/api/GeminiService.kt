@@ -2,7 +2,6 @@ package com.swanky.sympai.data.api
 
 import android.content.Context
 import com.google.ai.client.generativeai.GenerativeModel
-import com.google.ai.client.generativeai.type.Content
 import com.google.ai.client.generativeai.type.GenerateContentResponse
 import com.google.gson.Gson
 import com.swanky.sympai.data.model.PossibleCondition
@@ -34,40 +33,38 @@ class GeminiService(private val context: Context) {
         }
     }
 
-    private fun buildPrompt(userInput: String): Content {
-        return Content.Builder()
-            .addText("""
-                You are a medical symptom analyzer. Analyze the following symptoms and provide a structured response in JSON format.
-                
-                User symptoms: $userInput
-                
-                Respond ONLY with a valid JSON object that follows this exact schema:
+    private fun buildPrompt(userInput: String): String {
+        return """
+            You are a medical symptom analyzer. Analyze the following symptoms and provide a structured response in JSON format.
+            
+            User symptoms: $userInput
+            
+            Respond ONLY with a valid JSON object that follows this exact schema:
+            {
+              "possibleConditions": [
                 {
-                  "possibleConditions": [
-                    {
-                      "name": "string",
-                      "description": "string",
-                      "probability": "HIGH|MEDIUM|LOW",
-                      "urgency": "EMERGENCY|URGENT|ROUTINE|SELF_CARE"
-                    }
-                  ],
-                  "specialistRecommendation": "string",
-                  "generalAdvice": "string"
+                  "name": "string",
+                  "description": "string",
+                  "probability": "HIGH|MEDIUM|LOW",
+                  "urgency": "EMERGENCY|URGENT|ROUTINE|SELF_CARE"
                 }
-                
-                Important guidelines:
-                1. Include 2-4 possible conditions that match the symptoms
-                2. For each condition, provide a brief description
-                3. Assign a probability level (HIGH, MEDIUM, LOW)
-                4. Assign an urgency level (EMERGENCY, URGENT, ROUTINE, SELF_CARE)
-                5. Recommend appropriate medical specialists
-                6. Provide general advice for managing symptoms
-                7. ONLY return the JSON object, no other text
-                8. Make sure the JSON is valid and properly formatted
-                
-                Remember: This is not medical advice. Always recommend seeking professional medical help for serious symptoms.
-            """.trimIndent())
-            .build()
+              ],
+              "specialistRecommendation": "string",
+              "generalAdvice": "string"
+            }
+            
+            Important guidelines:
+            1. Include 2-4 possible conditions that match the symptoms
+            2. For each condition, provide a brief description
+            3. Assign a probability level (HIGH, MEDIUM, LOW)
+            4. Assign an urgency level (EMERGENCY, URGENT, ROUTINE, SELF_CARE)
+            5. Recommend appropriate medical specialists
+            6. Provide general advice for managing symptoms
+            7. ONLY return the JSON object, no other text
+            8. Make sure the JSON is valid and properly formatted
+            
+            Remember: This is not medical advice. Always recommend seeking professional medical help for serious symptoms.
+        """.trimIndent()
     }
 
     private fun extractJsonFromResponse(response: GenerateContentResponse): String {

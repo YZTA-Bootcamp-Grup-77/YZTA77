@@ -1,8 +1,8 @@
 package com.swanky.sympai.utils
 
 object Constants {
-    // TODO: Replace with your actual Gemini API key
-    const val GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
+    // Gemini API key
+    const val GEMINI_API_KEY = "AIzaSyDyRKIeFLPCOSDo0xWfUSkTjeMXLVJFgjA"
     
     // Speech recognition request code
     const val SPEECH_REQUEST_CODE = 100
