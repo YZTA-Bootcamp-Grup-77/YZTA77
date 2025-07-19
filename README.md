@@ -171,10 +171,10 @@ Toplam proje 300 puanlık iş yüküne göre planlandı. İkinci sprintte uygula
 
 ## 📸 *Ekran Görüntüsü:* 
 <p align="center">
-   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/sprint2-ss-1.jpg" width="250">
-   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/sprint2-ss-2.jpg" width="250">
-   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/sprint2-ss-3.jpg" width="250">
-   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/sprint2-ss-4.jpg" width="250">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/sprint2-ss-1.jpg" width="200">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/sprint2-ss-2.jpg" width="200">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/sprint2-ss-3.jpg" width="200">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/sprint2-ss-4.jpg" width="200">
 </p>
 
 ---
