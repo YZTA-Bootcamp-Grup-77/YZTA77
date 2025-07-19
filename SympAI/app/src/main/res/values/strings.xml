@@ -51,4 +51,9 @@
     <string name="urgency_urgent_desc">24-48 saat içinde tıbbi değerlendirme gerektiren durum</string>
     <string name="urgency_routine_desc">Normal bir doktor randevusu ile değerlendirilmesi gereken durum</string>
     <string name="urgency_self_care_desc">Evde kendi kendinize yönetebileceğiniz durum</string>
+    
+    <!-- Loading Texts -->
+    <string name="analyzing_symptoms">Semptomlar Analiz Ediliyor</string>
+    <string name="analyzing_description">Yapay zeka semptomlarınızı değerlendiriyor. Bu işlem birkaç saniye sürebilir.</string>
+    <string name="or_divider">VEYA</string>
 </resources>
