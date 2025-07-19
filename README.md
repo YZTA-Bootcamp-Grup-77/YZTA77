@@ -164,11 +164,11 @@ Toplam proje 300 puanlık iş yüküne göre planlandı. İkinci sprintte uygula
 
 #### 📸 *Ekran Görüntüleri:* 
 <p align="center">
-   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss1.png" width="200">
-   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss2.png" width="200">
-   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss3.png" width="200">
-   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss4.png" width="200">
-   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss5.png" width="200">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss1.png" width="180">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss2.png" width="180">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss3.png" width="180">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss4.png" width="180">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%202/ss5.png" width="180">
 </p>
 
 ### 🔸 Sprint Board Updates
