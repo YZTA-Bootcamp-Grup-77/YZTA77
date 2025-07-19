@@ -18,6 +18,9 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        
+        // Add API key to BuildConfig
+        buildConfigField("String", "GEMINI_API_KEY", "\"AIzaSyB9w23yJ5HapHqZgDdu3gcUJwfj_C7G4OA\"")
     }
 
     buildTypes {
@@ -38,6 +41,7 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        buildConfig = true
     }
 }
 
