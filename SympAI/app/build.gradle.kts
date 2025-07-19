@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.kotlin.android)
     id("kotlin-kapt")
     id("kotlin-parcelize")
+    id("androidx.navigation.safeargs.kotlin")
 }
 
 android {
@@ -67,6 +68,9 @@ dependencies {
     
     // Gemini AI
     implementation("com.google.ai.client.generativeai:generativeai:0.2.2")
+    
+    // Gson for JSON parsing
+    implementation("com.google.code.gson:gson:2.10.1")
     
     // Speech Recognition
     implementation("com.google.android.gms:play-services-auth:21.0.0")
