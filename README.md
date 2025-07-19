@@ -133,3 +133,106 @@ Uygulama için temel planlama oluşturuldu. Henüz UI veya kod çalışması yap
 * Speech-to-text entegrasyonu
 * Gemini API ile yapay zeka yanıtları alma
   işlemleri başlatılacaktır.
+
+---
+
+## 🚀 Sprint 2 Bilgilendirme
+
+### 🔸 Sprint Notları
+
+* Uygulama için temel ekran yapısı planlandı
+* Proje klasör yapısı oluşturuldu
+* Teknolojiler belirlendi
+* Uygulama adı ve logo tasarımı netleştirildi
+* Gerekli branchler oluşturuldu
+* Uygulama temel işlevleriyle çalışır duruma getirildi
+* Gemini entegrasyonu yapılıp testleri yapıldı
+
+---
+
+### 🔸 Tahmin Edilen Tamamlanacak Puan
+
+**125 puan**
+
+---
+
+### 🔸 Tahmin Mantığı
+
+Toplam proje 300 puanlık iş yüküne göre planlandı. İkinci sprintte uygulama temel yapısının oluşturulması, ekran tasarımlarının yapılması ve Gemini API entegrasyonu gibi önemli geliştirme adımları tamamlandığından **125 puan** ayrıldı. Bu sprint, projenin temel işlevselliğinin oluşturulduğu en kritik aşamalardan biri oldu.
+
+---
+
+### 🔸 Daily Scrum
+
+* Önceki sprintteki gibi takım üyeleriyle sağlıklı iletişim yine kurulamadı.
+* Google Meet üzerinden yapılan toplantılarda görev dağılımı yapıldı fakat bazı takım üyeleri görevlerini yerine getirmedi ya da yanlış getirdi.
+* Muhammed Mustafa Geldi yine planlamayı yürüttü, Mukadder Gür tasarım temelini yaptı.
+* Diğer takım üyeleriyle iletişim kurmak için çaba gösterilmesine rağmen yeterli katılım sağlanamadı.
+
+## 📸 *Ekran Görüntüsü:* 
+<p align="center">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%201/sprint1-ss-1.jpg" width="250">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%201/sprint1-ss-2.jpg" width="250">
+</p>
+
+---
+
+### 🔸 Sprint Board Updates
+
+📸 *Sprint Board Ekran Görüntüsü:* <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%201/sprint_board_1.png" alt="Sprint 2 Board" width="800"/>
+
+---
+
+### 🔸 Ürün Durumu
+
+Uygulama artık temel işlevleriyle çalışır durumda. Ana ekran, semptom girişi, analiz sonuçları ve geçmiş kayıtlar ekranları tasarlandı ve kodlandı. Gemini API entegrasyonu tamamlandı ve semptom analizi yapılabiliyor. Kullanıcı arayüzü modern ve kullanıcı dostu bir tasarıma sahip.
+
+---
+
+### 🔸 Sprint Review
+
+* Uygulama temel ekran yapısı oluşturuldu
+* Proje klasör yapısı ve mimari kuruldu
+* Gemini API entegrasyonu tamamlandı
+* Sesli ve yazılı semptom girişi özellikleri eklendi
+* Analiz sonuçlarının görüntülenmesi sağlandı
+* Modern ve kullanıcı dostu bir arayüz tasarlandı
+
+---
+
+### 🔸 Sprint Katılımcıları
+
+* Muhammed Mustafa Geldi ✅
+* Mukadder Gür ✅
+* Alperen Sümeroğlu ❓
+* Zeynep Genyüz ❓
+* Aleyna Usta ❓
+
+---
+
+### 🔸 Sprint Retrospective
+
+**İyi Gidenler:**
+
+* Uygulama temel işlevleriyle çalışır duruma geldi
+* Gemini API entegrasyonu başarıyla tamamlandı
+* Modern ve kullanıcı dostu bir arayüz tasarlandı
+
+**Zorlayan Noktalar:**
+
+* Takım üyelerinin katılımındaki dengesizlik iş yükünü artırdı
+* Görev dağılımında yaşanan aksaklıklar zaman kaybına neden oldu
+* İletişim sorunları devam etti.
+
+---
+
+## 📁 Not
+
+İlerleyen sprintlerde:
+
+* Uygulamaya farklı özellikler eklenecek.
+* İşleyiş stabil hale getirilecek ve bazı hatalar düzeltilecek.
+* Gemini API yanıtları iyileştirilecek.
+* Uygulama tasarımı düzenlenecek ve daha iyi bir hale getirilecek.
+
+---
