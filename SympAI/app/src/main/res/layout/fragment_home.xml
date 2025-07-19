@@ -18,32 +18,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <!-- Uygulama Logosu -->
-            <ImageView
-                android:id="@+id/appLogo"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:layout_marginTop="48dp"
-                android:contentDescription="@string/app_name"
-                android:src="@mipmap/ic_launcher"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
             <!-- Uygulama Adı -->
-            <TextView
-                android:id="@+id/appName"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="@string/app_name"
-                android:textAppearance="@style/TextAppearance.SympAI.Headline"
-                android:textColor="@color/dark_purple"
-                android:textSize="28sp"
-                android:textStyle="bold"
+
+            <!-- Robot Animasyonu - Büyütülmüş ve Merkezi -->
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationView"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="32dp"
+                app:layout_constraintDimensionRatio="1:1"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/appLogo" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/welcome_robot_anim" />
 
             <!-- Başlık ve Alt Başlık -->
             <TextView
@@ -51,16 +42,16 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginEnd="32dp"
                 android:gravity="center"
                 android:text="@string/home_title"
                 android:textAppearance="@style/TextAppearance.SympAI.Title"
                 android:textColor="@color/text_primary"
-                android:textSize="22sp"
+                android:textSize="24sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/appName" />
+                app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView" />
 
             <TextView
                 android:id="@+id/subtitleText"
@@ -73,35 +64,89 @@
                 android:text="@string/home_subtitle"
                 android:textAppearance="@style/TextAppearance.SympAI.Body"
                 android:textColor="@color/text_secondary"
+                android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/titleText" />
 
-            <!-- Semptom Giriş Kartı -->
+            <!-- Giriş Yöntemleri Kartı -->
             <com.google.android.material.card.MaterialCardView
-                android:id="@+id/inputCard"
+                android:id="@+id/inputMethodsCard"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="24dp"
                 android:layout_marginEnd="24dp"
+                android:layout_marginBottom="24dp"
                 app:cardBackgroundColor="@color/surface"
                 app:cardCornerRadius="24dp"
                 app:cardElevation="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/subtitleText">
+                app:layout_constraintTop_toBottomOf="@id/subtitleText"
+                app:layout_constraintVertical_bias="0.0">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="24dp">
 
+                    <!-- Mikrofon Butonu -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/micButtonCard"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:cardBackgroundColor="@color/accent"
+                        app:cardCornerRadius="40dp"
+                        app:cardElevation="4dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:id="@+id/micButton"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_gravity="center"
+                            android:contentDescription="@string/mic_button_description"
+                            android:src="@drawable/ic_mic"
+                            app:tint="@color/dark_purple" />
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <TextView
+                        android:id="@+id/tapToSpeakText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/tap_to_speak"
+                        android:textAppearance="@style/TextAppearance.SympAI.Body"
+                        android:textColor="@color/text_secondary"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/micButtonCard" />
+
+                    <!-- VEYA Ayırıcı -->
+                    <TextView
+                        android:id="@+id/orDivider"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:text="@string/or_divider"
+                        android:textAppearance="@style/TextAppearance.SympAI.Body"
+                        android:textColor="@color/text_secondary"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/tapToSpeakText" />
+
+                    <!-- Semptom Giriş Alanı -->
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/inputLayout"
                         style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
                         android:hint="@string/describe_symptoms"
                         app:boxCornerRadiusBottomEnd="16dp"
                         app:boxCornerRadiusBottomStart="16dp"
@@ -111,7 +156,7 @@
                         app:hintTextColor="@color/primary"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent">
+                        app:layout_constraintTop_toBottomOf="@id/orDivider">
 
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/inputText"
@@ -125,6 +170,7 @@
 
                     </com.google.android.material.textfield.TextInputLayout>
 
+                    <!-- Analiz Butonu -->
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/analyzeButton"
                         android:layout_width="0dp"
@@ -143,61 +189,6 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
             </com.google.android.material.card.MaterialCardView>
-
-            <!-- VEYA Ayırıcı -->
-            <TextView
-                android:id="@+id/orDivider"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="32dp"
-                android:text="VEYA"
-                android:textAppearance="@style/TextAppearance.SympAI.Body"
-                android:textColor="@color/text_secondary"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/inputCard" />
-
-            <!-- Mikrofon Butonu -->
-            <com.google.android.material.card.MaterialCardView
-                android:id="@+id/micButtonCard"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginTop="24dp"
-                android:layout_marginBottom="48dp"
-                app:cardBackgroundColor="@color/accent"
-                app:cardCornerRadius="50dp"
-                app:cardElevation="6dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/orDivider"
-                app:layout_constraintVertical_bias="0.0">
-
-                <ImageView
-                    android:id="@+id/micButton"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_gravity="center"
-                    android:contentDescription="@string/mic_button_description"
-                    android:src="@drawable/ic_mic"
-                    app:tint="@color/dark_purple" />
-
-            </com.google.android.material.card.MaterialCardView>
-
-            <TextView
-                android:id="@+id/tapToSpeakText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
-                android:layout_marginBottom="48dp"
-                android:text="@string/tap_to_speak"
-                android:textAppearance="@style/TextAppearance.SympAI.Body"
-                android:textColor="@color/text_secondary"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/micButtonCard"
-                app:layout_constraintVertical_bias="0.0" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -226,7 +217,7 @@
         android:visibility="gone">
 
         <com.google.android.material.card.MaterialCardView
-            android:layout_width="280dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             app:cardBackgroundColor="@color/surface"
             app:cardCornerRadius="24dp"
@@ -241,27 +232,29 @@
                 android:layout_height="wrap_content"
                 android:padding="24dp">
 
-                <ImageView
-                    android:id="@+id/loadingIcon"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:contentDescription="@string/app_name"
-                    android:src="@mipmap/ic_launcher"
+                <!-- Yükleme Animasyonu -->
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/loadingAnimation"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/loading_anim" />
 
                 <TextView
                     android:id="@+id/loadingTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="Semptomlar Analiz Ediliyor"
+                    android:text="@string/analyzing_symptoms"
                     android:textAppearance="@style/TextAppearance.SympAI.Title"
                     android:textColor="@color/dark_purple"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/loadingIcon" />
+                    app:layout_constraintTop_toBottomOf="@id/loadingAnimation" />
 
                 <TextView
                     android:id="@+id/loadingSubtitle"
@@ -269,7 +262,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:gravity="center"
-                    android:text="Yapay zeka semptomlarınızı değerlendiriyor. Bu işlem birkaç saniye sürebilir."
+                    android:text="@string/analyzing_description"
                     android:textAppearance="@style/TextAppearance.SympAI.Body"
                     android:textColor="@color/text_secondary"
                     app:layout_constraintEnd_toEndOf="parent"
