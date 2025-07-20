@@ -192,9 +192,9 @@ Uygulama artık temel işlevleriyle çalışır durumda. Ana ekran, semptom giri
 
 * Muhammed Mustafa Geldi ✅
 * Mukadder Gür ✅
-* Alperen Sümeroğlu ❓
-* Zeynep Genyüz ❓
-* Aleyna Usta ❓
+* Alperen Sümeroğlu ❌
+* Zeynep Genyüz ❌
+* Aleyna Usta ❌
 
 ### 🔸 Sprint Retrospective
 
