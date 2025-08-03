@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardBackgroundColor="@color/surface"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="2dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- İkon -->
+        <ImageView
+            android:id="@+id/tipIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_advice"
+            android:backgroundTint="@color/primary"
+            android:contentDescription="@string/health_tips"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Başlık -->
+        <TextView
+            android:id="@+id/tipTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textAppearance="@style/TextAppearance.SympAI.Title"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tipIcon"
+            app:layout_constraintTop_toTopOf="@id/tipIcon"
+            tools:text="Su İçin" />
+
+        <!-- Açıklama -->
+        <TextView
+            android:id="@+id/tipDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:textAppearance="@style/TextAppearance.SympAI.Body"
+            android:textColor="@color/text_secondary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tipIcon"
+            app:layout_constraintTop_toBottomOf="@id/tipTitle"
+            tools:text="Günde en az 8 bardak su için. Su, vücudunuzun düzgün çalışması için hayati önem taşır." />
+
+        <!-- Kategori Etiketi -->
+        <com.google.android.material.chip.Chip
+            android:id="@+id/categoryChip"
+            style="@style/Widget.Material3.Chip.Assist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textSize="12sp"
+            app:chipBackgroundColor="@color/primary_light"
+            app:chipStrokeColor="@color/primary"
+            app:chipStrokeWidth="1dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tipDescription"
+            tools:text="Günlük İpuçları" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

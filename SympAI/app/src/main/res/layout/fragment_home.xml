@@ -206,6 +206,18 @@
         app:backgroundTint="@color/dark_purple"
         app:tint="@color/white" />
 
+    <!-- Sağlık İpuçları Butonu (Sol Alt Köşe) -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/healthTipsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="24dp"
+        android:contentDescription="@string/health_tips"
+        android:src="@drawable/ic_advice"
+        app:backgroundTint="@color/primary"
+        app:tint="@color/white" />
+
     <!-- Gelişmiş Yükleme Göstergesi -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/loadingContainer"

@@ -24,6 +24,13 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_homeFragment_to_healthTipsFragment"
+            app:destination="@id/healthTipsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
     </fragment>
 
     <fragment
@@ -50,5 +57,11 @@
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right" />
     </fragment>
+
+    <fragment
+        android:id="@+id/healthTipsFragment"
+        android:name="com.swanky.sympai.ui.healthtips.HealthTipsFragment"
+        android:label="@string/health_tips"
+        tools:layout="@layout/fragment_health_tips" />
 
 </navigation>

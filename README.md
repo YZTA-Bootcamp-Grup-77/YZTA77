@@ -220,3 +220,108 @@ Uygulama artık temel işlevleriyle çalışır durumda. Ana ekran, semptom giri
 * Uygulama tasarımı düzenlenecek ve daha iyi bir hale getirilecek.
 
 ---
+
+## 🔹 Sprint 3 Bilgilendirme
+
+### 🔸 Sprint Notları
+
+* Sağlık İpuçları/Bilgi ekranı eklendi
+* 4 farklı kategori ile kapsamlı sağlık bilgileri sunuldu (Günlük İpuçları, Yaygın Hastalıklar, İlk Yardım, Sağlıklı Yaşam)
+* Arama özelliği ile kullanıcıların istedikleri bilgilere hızlı erişimi sağlandı
+* Kategori filtreleme sistemi eklendi
+* Modern ve kullanıcı dostu arayüz tasarımı tamamlandı
+* Uygulama son haline getirildi ve test edildi
+* Proje teslim için hazır hale getirildi
+
+### 📱 Ürün Ekran Görüntüleri
+
+#### *SympAI Sağlık İpuçları Ekranı:*
+
+<p align="center">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%203/ss1.png" width="150" style="margin: 2px;">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%203/ss2.png" width="150" style="margin: 2px;">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%203/ss3.png" width="150" style="margin: 2px;"> 
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%203/ss4.png" width="150" style="margin: 2px;"> 
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%203/ss5.png" width="150" style="margin: 2px;"> 
+</p>
+
+### 🔸 Tahmin Edilen Tamamlanacak Puan
+
+**125 puan**
+
+### 🔸 Tahmin Mantığı
+
+Toplam proje 300 puanlık iş yüküne göre planlandı. Üçüncü ve son sprintte Sağlık İpuçları ekranının eklenmesi, arama ve filtreleme özelliklerinin geliştirilmesi, uygulamanın son rötuşlarının yapılması ve test süreçlerinin tamamlanması gibi önemli işler gerçekleştirildiğinden **125 puan** ayrıldı. Bu sprint ile proje tamamlanmış ve teslim için hazır hale getirilmiştir.
+
+### 🔸 Daily Scrum
+
+* Bu sprintte sadece 2 aktif takım üyesi kaldı: Muhammed Mustafa Geldi ve Mukadder Gür.
+* Diğer takım üyeleri (Alperen Sümeroğlu, Zeynep Genyüz, Aleyna Usta) süreci umursamadı ve hiçbir şekilde katılım sağlamadılar.
+* WhatsApp grubu tamamen pasif kaldığı için sadece Mukadder Gür ile birebir iletişim kuruldu.
+* Görev dağılımı ve ilerleme takibi sadece iki kişi arasında yapıldı.
+* Muhammed Mustafa Geldi geliştirme sürecini yürüttü, Mukadder Gür tasarım desteği sağladı.
+
+#### 📸 *Ekran Görüntüleri:* 
+<p align="center">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%203/sprint3-ss-1.jpg" width="150">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%203/sprint3-ss-2.jpg" width="150">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%203/sprint3-ss-3.jpg" width="150">
+   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%203/sprint3-ss-4.jpg" width="150">
+</p>
+
+### 🔸 Sprint Board Updates
+
+📸 *Sprint Board Ekran Görüntüsü:* 
+
+<img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%203/sprint_board_3.png" alt="Sprint 3 Board" width="800"/>
+
+### 🔸 Ürün Durumu
+
+Uygulama artık tamamlanmış ve kullanıma hazır durumda. Ana ekran, semptom analizi, geçmiş kayıtlar ve yeni eklenen Sağlık İpuçları ekranı ile kullanıcılara kapsamlı bir sağlık asistanı deneyimi sunuyor. Gemini API entegrasyonu stabil çalışıyor ve kullanıcı arayüzü modern tasarımıyla kullanıcı dostu bir deneyim sağlıyor. Proje hedeflenen tüm özellikleri içeriyor ve teslim için hazır.
+
+### 🔸 Sprint Review
+
+* Sağlık İpuçları ekranı başarıyla eklendi
+* 4 kategori altında 13 farklı sağlık bilgisi sunuldu
+* Arama ve filtreleme özellikleri eklendi
+* Kullanıcı deneyimi iyileştirildi
+* Uygulama test edildi ve stabil hale getirildi
+* Proje tamamlandı ve teslim için hazırlandı
+
+### 🔸 Sprint Katılımcıları
+
+* Muhammed Mustafa Geldi ✅
+* Mukadder Gür ✅
+* Alperen Sümeroğlu ❌
+* Zeynep Genyüz ❌
+* Aleyna Usta ❌
+
+### 🔸 Sprint Retrospective
+
+**İyi Gidenler:**
+
+* Sağlık İpuçları özelliği başarıyla eklendi
+* Uygulama hedeflenen tüm özellikleri içeriyor
+* İki kişilik takımla verimli çalışma gerçekleştirildi
+* Proje zamanında tamamlandı
+
+**Zorlayan Noktalar:**
+
+* Takım üyelerinin çoğunun projeyi terk etmesi iş yükünü artırdı
+* İletişim tamamen koptu ve sadece iki kişi kaldı
+* Görev dağılımı dengesiz oldu
+
+### 📁 Sprint 3 Notları
+
+Proje başarıyla tamamlanmıştır:
+
+* ✅ Semptom analizi özelliği çalışıyor
+* ✅ Sesli ve yazılı giriş destekleniyor
+* ✅ Gemini API entegrasyonu stabil
+* ✅ Geçmiş kayıtlar tutulabiliyor
+* ✅ Sağlık İpuçları bilgilendirme ekranı eklendi
+* ✅ Modern ve kullanıcı dostu arayüz tasarlandı
+
+**SympAI uygulaması kullanıma hazırdır! 🎉**
+
+---
