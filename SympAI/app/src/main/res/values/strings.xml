@@ -56,4 +56,46 @@
     <string name="analyzing_symptoms">Semptomlar Analiz Ediliyor</string>
     <string name="analyzing_description">Yapay zeka semptomlarınızı değerlendiriyor. Bu işlem birkaç saniye sürebilir.</string>
     <string name="or_divider">VEYA</string>
+    
+    <!-- Health Tips Screen -->
+    <string name="health_tips">Sağlık İpuçları</string>
+    <string name="daily_tips">Günlük İpuçları</string>
+    <string name="common_diseases">Yaygın Hastalıklar</string>
+    <string name="first_aid">İlk Yardım</string>
+    <string name="healthy_living">Sağlıklı Yaşam</string>
+    <string name="health_tips_subtitle">Sağlığınız için faydalı bilgiler</string>
+    
+    <!-- Daily Tips -->
+    <string name="tip_water">Su İçin</string>
+    <string name="tip_water_desc">Günde en az 8 bardak su için. Su, vücudunuzun düzgün çalışması için hayati önem taşır.</string>
+    <string name="tip_exercise">Egzersiz Yapın</string>
+    <string name="tip_exercise_desc">Günde en az 30 dakika yürüyüş yapın. Düzenli egzersiz kalp sağlığınızı korur.</string>
+    <string name="tip_sleep">Yeterli Uyuyun</string>
+    <string name="tip_sleep_desc">Günde 7-8 saat uyumaya özen gösterin. Kaliteli uyku bağışıklık sisteminizi güçlendirir.</string>
+    <string name="tip_nutrition">Dengeli Beslenin</string>
+    <string name="tip_nutrition_desc">Bol meyve ve sebze tüketin. Dengeli beslenme hastalıklara karşı koruma sağlar.</string>
+    
+    <!-- Common Diseases -->
+    <string name="disease_cold">Soğuk Algınlığı</string>
+    <string name="disease_cold_desc">Burun akıntısı, hapşırma ve boğaz ağrısı ile karakterize viral enfeksiyon.</string>
+    <string name="disease_flu">Grip</string>
+    <string name="disease_flu_desc">Ateş, kas ağrıları ve yorgunluk ile seyreden viral hastalık.</string>
+    <string name="disease_headache">Baş Ağrısı</string>
+    <string name="disease_headache_desc">Stres, yorgunluk veya dehidrasyon nedeniyle oluşabilen yaygın şikayet.</string>
+    
+    <!-- First Aid -->
+    <string name="first_aid_burn">Yanık</string>
+    <string name="first_aid_burn_desc">Soğuk su ile 10-15 dakika soğutun. Buz kullanmayın.</string>
+    <string name="first_aid_cut">Kesik</string>
+    <string name="first_aid_cut_desc">Temiz bezle baskı uygulayın. Kanamayı durdurmaya çalışın.</string>
+    <string name="first_aid_choking">Boğulma</string>
+    <string name="first_aid_choking_desc">Heimlich manevrası uygulayın. Acil servisi arayın.</string>
+    
+    <!-- Healthy Living -->
+    <string name="healthy_stress">Stres Yönetimi</string>
+    <string name="healthy_stress_desc">Derin nefes alın, meditasyon yapın ve hobilerinize zaman ayırın.</string>
+    <string name="healthy_hygiene">Kişisel Hijyen</string>
+    <string name="healthy_hygiene_desc">Ellerinizi sık sık yıkayın ve kişisel temizliğinize özen gösterin.</string>
+    <string name="healthy_checkup">Düzenli Kontrol</string>
+    <string name="healthy_checkup_desc">Yılda en az bir kez genel sağlık kontrolünden geçirin.</string>
 </resources>

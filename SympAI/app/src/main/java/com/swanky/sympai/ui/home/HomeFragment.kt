@@ -125,6 +125,10 @@ class HomeFragment : Fragment() {
             findNavController().navigate(R.id.action_homeFragment_to_historyFragment)
         }
         
+        binding.healthTipsButton.setOnClickListener {
+            findNavController().navigate(R.id.action_homeFragment_to_healthTipsFragment)
+        }
+        
         // Mikrofon ikonuna da tıklama işlevi ekleyelim
         binding.micButton.setOnClickListener {
             checkMicrophonePermission()
