@@ -241,8 +241,6 @@ Uygulama artık temel işlevleriyle çalışır durumda. Ana ekran, semptom giri
    <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%203/ss1.png" width="150" style="margin: 2px;">
    <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%203/ss2.png" width="150" style="margin: 2px;">
    <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%203/ss3.png" width="150" style="margin: 2px;"> 
-   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%203/ss4.png" width="150" style="margin: 2px;"> 
-   <img src="https://github.com/YZTA-Bootcamp-Grup-77/YZTA77/blob/main/Images/sprint%203/ss5.png" width="150" style="margin: 2px;"> 
 </p>
 
 ### 🔸 Tahmin Edilen Tamamlanacak Puan
